@@ -45,15 +45,15 @@ Implement both stack and queue data structures in each of four instantiation sty
 
 ## Instantiation Styles
 
-- 1. Functional instantiation: a simple "maker" pattern
+- 1. **Functional instantiation:** a simple "maker" pattern
 * -  Do:
-- Work within the src/functional/ folder
+- Work within the <code>src/functional/</code> folder
 - Define all functions and properties within the maker function
 * - Don't:
 - Use the keyword <code>new</code>, the keyword <code>this</code>, or any <code>prototype</code> chains
 - Capitalize the maker function name
 *  - Example: The provided classes Stack and Queue already follow this pattern
-### 2. Functional instantiation with shared methods: same as step 1, but with shared methods
+### 2. **Functional instantiation** with shared methods: same as step 1, but with shared methods
 * - Do:
 - Work within the src/functional-shared/ folder
 - Create an object that holds the methods that will be shared by all instances of the class
@@ -61,14 +61,14 @@ Implement both stack and queue data structures in each of four instantiation sty
 - Use <code>_.extend</code> to copy the methods onto the instance
 * - Don't:
 Use the keyword <code>new</code> or <code>prototype</code> chains
-- Example: functional instantiation example
+- Example: <a href="https://github.com/hackreactor/giraffeMaker/blob/master/src/giraffeExtend.js">functional instantiation example</a>
 - ## Prototypal instantiation: using Object.create
 * - Do:
 - Work within the src/protoypal/ folder.
 - Use Object.create with the object from step 2 to create instances of your class
 * - Don't:
 - Use the keyword <code>new</code>
-- Example: prototypal instantiation example
+- Example:<a href="https://github.com/hackreactor/giraffeMaker/blob/master/src/giraffePrototype.js">prototypal instantiation example</a>
 - ## 4. Pseudoclassical instantiation: create instances with the keyword <code>new</code>
 * - Do:
 - Work within the <code>src/pseudoclassical/ folder</code>
@@ -78,7 +78,8 @@ Use the keyword <code>new</code> or <code>prototype</code> chains
 * - Don't:
 - Declare the instance explicitly
 - Return the instance explicitly
-* - Example: pseudoclassical instantiation example
+* - Example: <a href="https://github.com/hackreactor/giraffeMaker/blob/master/src/giraffePseudoClassical.js">pseudoclassical instantiation example</a>
+
 # Sprint Two: Data Structures
 
 > This repo holds a mostly-empty Mocha test suite. To run it, open up SpecRunner.html.
@@ -93,7 +94,7 @@ Use the keyword <code>new</code> or <code>prototype</code> chains
 
 A linked list is a dynamic data structure that allows for constant time insertion and removal at any point in the linked list (compare this to an array which on average has linear time insertion and removal operations). In exchange for this insertion and removal speed, linked lists are not indexed and any find operations on a link list require the linear time operation of traversing the entire linked-list from the beginning.
 
-Linked List image <img src="https://f.cloud.github.com/assets/1577682/1212239/43154574-2615-11e3-8e29-43cf74e25b10.png" alt="Linked List image">
+ <img src="https://f.cloud.github.com/assets/1577682/1212239/43154574-2615-11e3-8e29-43cf74e25b10.png" alt="Linked List image">
 
 ## A linked list would be great for....
 
