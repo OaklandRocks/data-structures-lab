@@ -20,5 +20,5 @@ Queue.prototype.dequeue = function(){
 };
 
 Queue.prototype.suze = function(){
-  retunr this.end - this.start;
+  return this.end - this.start;
 };
