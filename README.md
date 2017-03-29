@@ -3,7 +3,7 @@ In this assignment, we'll implement and test two basic data structures:
 
 
 ## Check out solution branch
-<img src="https://docs.microsoft.com/en-us/azure/app-service-web/media/app-service-agile-software-development/test-1-github-view.png"
+<img src="https://docs.microsoft.com/en-us/azure/app-service-web/media/app-service-agile-software-development/test-1-github-view.png">
 
 ## 1. <a href="http://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Queue</a>
 
